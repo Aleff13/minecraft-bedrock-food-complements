@@ -49,15 +49,10 @@ npx tsc --noEmit
 Como não dá pra acessar a pasta do jogo diretamente, é preciso empacotar num arquivo `.mcpack` e importar pelo próprio app:
 
 ```bash
-npm run build
-mkdir -p dist
-rm -f dist/FoodComplements.mcpack
-cd packs/BP_food_complements
-zip -r -X ../../dist/FoodComplements.mcpack . -x ".*"
-cd ../..
+npm run package
 ```
 
-Isso gera `dist/FoodComplements.mcpack`. Depois:
+Esse comando builda e já gera `dist/FoodComplements.mcpack` (requer o comando `zip` no PATH — padrão no macOS/Linux; no Windows use Git Bash, WSL ou 7-Zip). Depois:
 
 1. Transfira o arquivo pro celular (AirDrop do Mac é o mais fácil; ou iCloud/Drive/e-mail).
 2. Toque no arquivo `.mcpack` no celular e escolha "Abrir no Minecraft" — o jogo importa o pack sozinho.
@@ -65,7 +60,7 @@ Isso gera `dist/FoodComplements.mcpack`. Depois:
 4. Em **Complementos**, ative o Behavior Pack "Food Complements" nesse mundo.
 5. Entre no mundo e segure um alimento na hotbar.
 
-Repita esse processo (build → zip → transferir) toda vez que o código mudar — não há live-reload remoto em iOS.
+Repita `npm run package` → transferir toda vez que o código mudar — não há live-reload remoto em iOS.
 
 ### Verificar erros no jogo
 
