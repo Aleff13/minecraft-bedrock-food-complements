@@ -12,5 +12,5 @@ export function updateActionBar(
   }
 
   const saturationText = foodInfo.saturation.toFixed(1);
-  player.onScreenDisplay.setActionBar(`🍗 Fome +${foodInfo.nutrition} | Saturação +${saturationText}`);
+  player.onScreenDisplay.setActionBar(`Fome +${foodInfo.nutrition} | Saturação +${saturationText}`);
 }
