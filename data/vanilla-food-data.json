@@ -1,0 +1,418 @@
+[
+  {
+    "id": "minecraft:apple",
+    "nameEn": "Apple",
+    "namePt": "Maçã",
+    "nameNeedsReview": false,
+    "nutrition": 4,
+    "saturation": 2.4,
+    "saturationPerNutrition": 0.6,
+    "effect": null
+  },
+  {
+    "id": "minecraft:baked_potato",
+    "nameEn": "Baked Potato",
+    "namePt": "Batata Assada",
+    "nameNeedsReview": false,
+    "nutrition": 5,
+    "saturation": 6,
+    "saturationPerNutrition": 1.2,
+    "effect": null
+  },
+  {
+    "id": "minecraft:beef",
+    "nameEn": "Raw Beef",
+    "namePt": "Carne bovina crua",
+    "nameNeedsReview": false,
+    "nutrition": 3,
+    "saturation": 1.8,
+    "saturationPerNutrition": 0.6,
+    "effect": null
+  },
+  {
+    "id": "minecraft:beetroot",
+    "nameEn": "Beetroot",
+    "namePt": "Beterraba",
+    "nameNeedsReview": false,
+    "nutrition": 1,
+    "saturation": 1.2,
+    "saturationPerNutrition": 1.2,
+    "effect": null
+  },
+  {
+    "id": "minecraft:beetroot_soup",
+    "nameEn": "Beetroot Soup",
+    "namePt": "Sopa de beterraba",
+    "nameNeedsReview": false,
+    "nutrition": 6,
+    "saturation": 7.2,
+    "saturationPerNutrition": 1.2,
+    "effect": null
+  },
+  {
+    "id": "minecraft:bread",
+    "nameEn": "Bread",
+    "namePt": "Pão",
+    "nameNeedsReview": false,
+    "nutrition": 5,
+    "saturation": 6,
+    "saturationPerNutrition": 1.2,
+    "effect": null
+  },
+  {
+    "id": "minecraft:cake",
+    "nameEn": "Cake",
+    "namePt": "Bolo (fatia)",
+    "nameNeedsReview": false,
+    "nutrition": 2,
+    "saturation": 0.4,
+    "saturationPerNutrition": 0.2,
+    "effect": null,
+    "note": "Valores por fatia (uma unidade de uso). Bolo inteiro tem 7 fatias.",
+    "wholeCake": {
+      "nutrition": 14,
+      "saturation": 2.8
+    }
+  },
+  {
+    "id": "minecraft:carrot",
+    "nameEn": "Carrot",
+    "namePt": "Cenoura",
+    "nameNeedsReview": false,
+    "nutrition": 3,
+    "saturation": 3.6,
+    "saturationPerNutrition": 1.2,
+    "effect": null
+  },
+  {
+    "id": "minecraft:chicken",
+    "nameEn": "Raw Chicken",
+    "namePt": "Frango cru",
+    "nameNeedsReview": false,
+    "nutrition": 2,
+    "saturation": 1.2,
+    "saturationPerNutrition": 0.6,
+    "effect": "Fome por 30 segundos (30% de chance)"
+  },
+  {
+    "id": "minecraft:chorus_fruit",
+    "nameEn": "Chorus Fruit",
+    "namePt": "Fruta Cora",
+    "nameNeedsReview": false,
+    "nutrition": 4,
+    "saturation": 2.4,
+    "saturationPerNutrition": 0.6,
+    "effect": "O jogador pode ser teletransportado aleatoriamente, conforme descrito em Enderman#Teletransporte ."
+  },
+  {
+    "id": "minecraft:cod",
+    "nameEn": "Raw Cod",
+    "namePt": "Bacalhau cru",
+    "nameNeedsReview": false,
+    "nutrition": 2,
+    "saturation": 0.4,
+    "saturationPerNutrition": 0.2,
+    "effect": null
+  },
+  {
+    "id": "minecraft:cooked_beef",
+    "nameEn": "Steak",
+    "namePt": "Bife",
+    "nameNeedsReview": false,
+    "nutrition": 8,
+    "saturation": 12.8,
+    "saturationPerNutrition": 1.6,
+    "effect": "None"
+  },
+  {
+    "id": "minecraft:cooked_chicken",
+    "nameEn": "Cooked Chicken",
+    "namePt": "Frango cozido",
+    "nameNeedsReview": false,
+    "nutrition": 6,
+    "saturation": 7.2,
+    "saturationPerNutrition": 1.2,
+    "effect": null
+  },
+  {
+    "id": "minecraft:cooked_cod",
+    "nameEn": "Cooked Cod",
+    "namePt": "Bacalhau cozido",
+    "nameNeedsReview": false,
+    "nutrition": 5,
+    "saturation": 6,
+    "saturationPerNutrition": 1.2,
+    "effect": null
+  },
+  {
+    "id": "minecraft:cooked_mutton",
+    "nameEn": "Cooked Mutton",
+    "namePt": "Carneiro cozido",
+    "nameNeedsReview": false,
+    "nutrition": 6,
+    "saturation": 9.6,
+    "saturationPerNutrition": 1.6,
+    "effect": null
+  },
+  {
+    "id": "minecraft:cooked_porkchop",
+    "nameEn": "Cooked Porkchop",
+    "namePt": "Costeleta de porco cozida",
+    "nameNeedsReview": false,
+    "nutrition": 8,
+    "saturation": 12.8,
+    "saturationPerNutrition": 1.6,
+    "effect": null
+  },
+  {
+    "id": "minecraft:cooked_rabbit",
+    "nameEn": "Cooked Rabbit",
+    "namePt": "Coelho cozido",
+    "nameNeedsReview": false,
+    "nutrition": 5,
+    "saturation": 6,
+    "saturationPerNutrition": 1.2,
+    "effect": null
+  },
+  {
+    "id": "minecraft:cooked_salmon",
+    "nameEn": "Cooked Salmon",
+    "namePt": "Salmão cozido",
+    "nameNeedsReview": false,
+    "nutrition": 6,
+    "saturation": 9.6,
+    "saturationPerNutrition": 1.6,
+    "effect": null
+  },
+  {
+    "id": "minecraft:cookie",
+    "nameEn": "Cookie",
+    "namePt": "Biscoito",
+    "nameNeedsReview": false,
+    "nutrition": 2,
+    "saturation": 0.4,
+    "saturationPerNutrition": 0.2,
+    "effect": null
+  },
+  {
+    "id": "minecraft:dried_kelp",
+    "nameEn": "Dried Kelp",
+    "namePt": "Algas marinhas secas",
+    "nameNeedsReview": false,
+    "nutrition": 1,
+    "saturation": 0.6,
+    "saturationPerNutrition": 0.6,
+    "effect": null
+  },
+  {
+    "id": "minecraft:enchanted_golden_apple",
+    "nameEn": "Enchanted Golden Apple",
+    "namePt": "Maçã Dourada Encantada",
+    "nameNeedsReview": false,
+    "nutrition": 4,
+    "saturation": 9.6,
+    "saturationPerNutrition": 2.4,
+    "effect": "*Regeneração II por 20 segundos[ Somente na Edição Java ] Regeneração IV por 30 segundos[ Apenas na Edição Bedrock ] Absorção IV durante 2 minutos Resistência por 5 minutos Resistência ao fogo por 5 minutos"
+  },
+  {
+    "id": "minecraft:glow_berries",
+    "nameEn": "Glow Berries",
+    "namePt": "Frutas Brilhantes",
+    "nameNeedsReview": false,
+    "nutrition": 2,
+    "saturation": 0.4,
+    "saturationPerNutrition": 0.2,
+    "effect": null
+  },
+  {
+    "id": "minecraft:golden_apple",
+    "nameEn": "Golden Apple",
+    "namePt": "Maçã Dourada",
+    "nameNeedsReview": false,
+    "nutrition": 4,
+    "saturation": 9.6,
+    "saturationPerNutrition": 2.4,
+    "effect": "*Regeneração II por 5 segundos Absorção por 2 minutos"
+  },
+  {
+    "id": "minecraft:golden_carrot",
+    "nameEn": "Golden Carrot",
+    "namePt": "Cenoura Dourada",
+    "nameNeedsReview": false,
+    "nutrition": 6,
+    "saturation": 14.4,
+    "saturationPerNutrition": 2.4,
+    "effect": null
+  },
+  {
+    "id": "minecraft:honey_bottle",
+    "nameEn": "Honey Bottle",
+    "namePt": "Garrafa de Mel",
+    "nameNeedsReview": false,
+    "nutrition": 6,
+    "saturation": 1.2,
+    "saturationPerNutrition": 0.2,
+    "effect": "LimpaTóxico"
+  },
+  {
+    "id": "minecraft:melon_slice",
+    "nameEn": "Melon Slice",
+    "namePt": "Fatia de melão",
+    "nameNeedsReview": false,
+    "nutrition": 2,
+    "saturation": 1.2,
+    "saturationPerNutrition": 0.6,
+    "effect": null
+  },
+  {
+    "id": "minecraft:mushroom_stew",
+    "nameEn": "Mushroom Stew",
+    "namePt": "Ensopado de cogumelos",
+    "nameNeedsReview": false,
+    "nutrition": 6,
+    "saturation": 7.2,
+    "saturationPerNutrition": 1.2,
+    "effect": null
+  },
+  {
+    "id": "minecraft:mutton",
+    "nameEn": "Raw Mutton",
+    "namePt": "Carneiro cru",
+    "nameNeedsReview": false,
+    "nutrition": 2,
+    "saturation": 1.2,
+    "saturationPerNutrition": 0.6,
+    "effect": null
+  },
+  {
+    "id": "minecraft:poisonous_potato",
+    "nameEn": "Poisonous Potato",
+    "namePt": "Batata venenosa",
+    "nameNeedsReview": false,
+    "nutrition": 2,
+    "saturation": 1.2,
+    "saturationPerNutrition": 0.6,
+    "effect": "Envenena por 5 segundos (60% de chance)"
+  },
+  {
+    "id": "minecraft:porkchop",
+    "nameEn": "Raw Porkchop",
+    "namePt": "Costeleta de porco crua",
+    "nameNeedsReview": false,
+    "nutrition": 3,
+    "saturation": 1.8,
+    "saturationPerNutrition": 0.6,
+    "effect": null
+  },
+  {
+    "id": "minecraft:potato",
+    "nameEn": "Potato",
+    "namePt": "Batata",
+    "nameNeedsReview": false,
+    "nutrition": 1,
+    "saturation": 0.6,
+    "saturationPerNutrition": 0.6,
+    "effect": null
+  },
+  {
+    "id": "minecraft:pufferfish",
+    "nameEn": "Pufferfish",
+    "namePt": "Baiacu",
+    "nameNeedsReview": false,
+    "nutrition": 1,
+    "saturation": 0.2,
+    "saturationPerNutrition": 0.2,
+    "effect": "*Fome III por 15 segundos Náusea por 15 segundos Veneno II por 60 segundos"
+  },
+  {
+    "id": "minecraft:pumpkin_pie",
+    "nameEn": "Pumpkin Pie",
+    "namePt": "Torta de Abóbora",
+    "nameNeedsReview": false,
+    "nutrition": 8,
+    "saturation": 4.8,
+    "saturationPerNutrition": 0.6,
+    "effect": null
+  },
+  {
+    "id": "minecraft:rabbit",
+    "nameEn": "Raw Rabbit",
+    "namePt": "Coelho cru",
+    "nameNeedsReview": false,
+    "nutrition": 3,
+    "saturation": 1.8,
+    "saturationPerNutrition": 0.6,
+    "effect": null
+  },
+  {
+    "id": "minecraft:rabbit_stew",
+    "nameEn": "Rabbit Stew",
+    "namePt": "Ensopado de coelho",
+    "nameNeedsReview": false,
+    "nutrition": 10,
+    "saturation": 12,
+    "saturationPerNutrition": 1.2,
+    "effect": null
+  },
+  {
+    "id": "minecraft:rotten_flesh",
+    "nameEn": "Rotten Flesh",
+    "namePt": "Carne podre",
+    "nameNeedsReview": false,
+    "nutrition": 4,
+    "saturation": 0.8,
+    "saturationPerNutrition": 0.2,
+    "effect": "Fome por 30 segundos (80% de chance)"
+  },
+  {
+    "id": "minecraft:salmon",
+    "nameEn": "Raw Salmon",
+    "namePt": "Salmão cru",
+    "nameNeedsReview": false,
+    "nutrition": 2,
+    "saturation": 0.4,
+    "saturationPerNutrition": 0.2,
+    "effect": null
+  },
+  {
+    "id": "minecraft:spider_eye",
+    "nameEn": "Spider Eye",
+    "namePt": "Olho de Aranha",
+    "nameNeedsReview": false,
+    "nutrition": 2,
+    "saturation": 3.2,
+    "saturationPerNutrition": 1.6,
+    "effect": "Poison for 5 seconds"
+  },
+  {
+    "id": "minecraft:suspicious_stew",
+    "nameEn": "Suspicious Stew",
+    "namePt": "Ensopado Suspeito",
+    "nameNeedsReview": false,
+    "nutrition": 6,
+    "saturation": 7.2,
+    "saturationPerNutrition": 1.2,
+    "effect": "The following for 3-11 seconds, depending on the flower used: Regeneration Jump Boost Poison Wither Weakness Blindness Fire Resistance Saturation Night Vision",
+    "note": "Efeito de status varia conforme a flor usada no preparo; valores de fome/saturação são fixos."
+  },
+  {
+    "id": "minecraft:sweet_berries",
+    "nameEn": "Sweet Berries",
+    "namePt": "Frutas Silvestres",
+    "nameNeedsReview": false,
+    "nutrition": 2,
+    "saturation": 0.4,
+    "saturationPerNutrition": 0.2,
+    "effect": "None"
+  },
+  {
+    "id": "minecraft:tropical_fish",
+    "nameEn": "Tropical Fish",
+    "namePt": "Peixe Tropical",
+    "nameNeedsReview": false,
+    "nutrition": 1,
+    "saturation": 0.2,
+    "saturationPerNutrition": 0.2,
+    "effect": "None"
+  }
+]

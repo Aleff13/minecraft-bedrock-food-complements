@@ -1,0 +1,15 @@
+{
+  "name": "minecraft-bedrock-food-complements",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Add-on Bedrock que mostra fome e saturação do alimento na mão do jogador",
+  "scripts": {
+    "build": "esbuild src/scripts/main.ts --bundle --outfile=packs/BP_food_complements/scripts/main.js --format=esm --external:@minecraft/server --external:@minecraft/server-ui --resolve-extensions=.ts,.js,.json",
+    "watch": "npm run build -- --watch"
+  },
+  "devDependencies": {
+    "@minecraft/server": "2.8.0",
+    "esbuild": "^0.24.0",
+    "typescript": "^5.5.0"
+  }
+}

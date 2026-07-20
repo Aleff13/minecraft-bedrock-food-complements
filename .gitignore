@@ -1,0 +1,5 @@
+node_modules/
+packs/BP_food_complements/scripts/*.js
+packs/BP_food_complements/scripts/*.js.map
+dist/
+.DS_Store
